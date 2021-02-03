@@ -1,3 +1,5 @@
+![javascript-vscode-editor-code](https://user-images.githubusercontent.com/39414546/106701866-26928a80-65c6-11eb-968b-d8c762ced488.jpg)
+
 <h1 align="center">Hi! 👋, I'm Lucas Alves.</h1>
 <p align="center">Computer Technician and studying the 2nd term of Computer Engineering at IFPB - Campus Campina Grande. I started programming with Python in 2017 and I am currently studying to become a Fullstack developer, looking to evolve every day. Be free to contact me! 🤝</p>
 
