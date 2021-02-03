@@ -14,7 +14,5 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=lucasfdelis&show_icons=true&locale=en&layout=compact" alt="lucasfdelis" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasfdelis&" alt="lucasfdelis" /></p>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lucasfdelis&label=Profile%20views&color=0e75b6&style=flat" alt="lucasfdelis" /> </p>
 
