@@ -4,7 +4,7 @@
 
 - 📫 How to reach me: **lucasalvesf78@gmail.com**
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=lucasfdelis&label=Profile%20views&color=0e75b6&style=flat" alt="lucasfdelis" /> </p>
+
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://linkedin.com/in/lucasfdelis" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="lucasfdelis" height="30" width="40" /></a>
