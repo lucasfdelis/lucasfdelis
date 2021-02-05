@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi! 👋, I'm Lucas Alves.</h1>
-<p align="center">Computer Technician and studying the 2nd term of Computer Engineering at IFPB - Campus Campina Grande. Started programming with Python in 2017 and I am currently studying to become a Fullstack developer, looking to evolve every day. Be free to contact me! 🤝</p>
+<p align="center">Computer Technician and studying the 2nd term of Computer Engineering at IFPB - Campus Campina Grande. Started programming with Python in 2017 and currently studying to become a Fullstack developer, looking to evolve every day. Be free to contact me! 🤝</p>
 
 - 📫 How to reach me: **lucasalvesf78@gmail.com**
 
