@@ -11,4 +11,4 @@
 <a href="https://instagram.com/lvkinhas" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="lvkinhas" height="30" width="40" /></a>
 </p>
 
-<p align="left"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=lucasfdelis&show_icons=true&locale=en&layout=compact" alt="lucasfdelis" /></p>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lucasfdelis&layout=compact)](https://github.com/lucasfdelis/lucasfdelis)
