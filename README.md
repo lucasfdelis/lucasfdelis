@@ -9,10 +9,10 @@
 
 <p align="left">
 
-  <a href="https://www.linkedin.com/in/lucasfdelis/" alt="Linkedin">
+  <a href="https://www.linkedin.com/in/lucasfdelis/" target="_blank" alt="Linkedin">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucasfdelis/" /></a>
   
-  <a href="https://www.instagram.com/lvkinhas/" alt="Instagram">
+  <a href="https://www.instagram.com/lvkinhas/" target="_blank" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/lvkinhas/"/></a>
 </p>  
 
