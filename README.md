@@ -4,7 +4,7 @@
 
 <br>
 
-<p align="left"><strong>Computer Technician</strong> and studying the 2nd term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. Started programming in 2017 and currently studying to become a <strong>Fullstack developer</strong>, looking to evolve every day. Be free to contact me! 🤝</p>
+<p align="left"><strong>Computer Technician</strong> and studying the <strong>3nd</strong> term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. Started programming in 2017 and currently studying to become a <strong>Fullstack developer</strong>, looking to evolve every day. Be free to contact me! 🤝</p>
 
 <br>
 
@@ -20,12 +20,25 @@
 
 <h1> </h1>
 
-<a href="https://github.com/lucasfdelis">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=lucasfdelis&show_icons=true&theme=dracula&line_height=27" alt="**SEU NOME** github stats"/>
+<table align = "center" border = '0'>
+  <tr>
+    <td>
+      <a href="https://github.com/lucasfdelis">
+  <img width="400px" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasfdelis&theme=dracula&hide_langs_below=1&layout=compact" />
 </a>
+    </td>
+    <td>
+      <a href="https://github.com/lucasfdelis">
+ <img width="454px" align="center" src="https://github-readme-stats.vercel.app/api?username=lucasfdelis&show_icons=true&theme=dracula&line_height=27" alt="**SEU NOME** github stats"/>
+</a>
+    </td>
+  </tr>
+</table>
 
-<a href="https://github.com/lucasfdelis">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasfdelis&theme=dracula&hide_langs_below=1" />
-</a>
+
+
+
+
+
 
 
