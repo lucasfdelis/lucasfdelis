@@ -37,7 +37,7 @@
   <tr>
     <td>
       <a href="https://github.com/lucasfdelis">
-  <img width="400px" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasfdelis&theme=dracula&hide_langs_below=1&layout=compact" />
+  <img width="400px" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasfdelis&exclude_repo=IA-FIC2021&langs_count=6&theme=dracula&hide_langs_below=1&layout=compact" />
 </a>
     </td>
     <td>
