@@ -4,7 +4,11 @@
 
 <br>
 
-<p align="left"><strong>Computer Technician</strong> and studying the <strong>4nd</strong> term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. Be free to contact me! 🤝</p>
+<p align="left"><strong>Computer Technician</strong> and studying the <strong>4nd</strong> term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. 
+
+<br>
+
+<p>Be free to contact me! 🤝</p>
 
 <br>
 
