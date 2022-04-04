@@ -4,7 +4,7 @@
 
 <br>
 
-<p align="left"><strong>Computer Technician</strong> and studying the <strong>4nd</strong> term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. 
+<p align="left"><strong>Computer Technician</strong> and studying the <strong>5nd</strong> term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. 
 
 <br>
 
