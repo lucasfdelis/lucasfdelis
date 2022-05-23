@@ -12,7 +12,6 @@
 
 <br>
 
-
 <p align="left">
 
   <a href="https://www.linkedin.com/in/lucasfdelis/" target="_blank" alt="Linkedin">
@@ -33,6 +32,10 @@
  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
  ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
  ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+ ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+ ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+ ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+ ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 
 
 <table align = "center" border = '0'>
@@ -44,9 +47,15 @@
     </td>
     <td>
       <a href="https://github.com/lucasfdelis">
- <img width="454px" align="center" src="https://github-readme-stats.vercel.app/api?username=lucasfdelis&show_icons=true&theme=dracula&line_height=27" alt="**SEU NOME** github stats"/>
+ <img width="454px" align="center" src="https://github-readme-stats.vercel.app/api?username=lucasfdelis&show_icons=true&theme=dracula&line_height=27" alt="Lucas Alves github stats"/>
 </a>
     </td>
+    <td>
+       <a href="https://github.com/lucasfdelis">
+ <img width="454px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasfdelis&theme=dracula" alt="Lucas Alves github stats"/>
+</a>
+    </td>
+   
   </tr>
 </table>
 
