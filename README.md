@@ -14,11 +14,12 @@
 
 <p align="left">
 
-  <a href="https://www.linkedin.com/in/lucasfdelis/" target="_blank" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucasfdelis/" /></a>
-  
-  <a href="https://www.instagram.com/lvkinhas/" target="_blank" alt="Instagram">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/lvkinhas/"/></a>
+<a href="https://www.linkedin.com/in/lucasfdelis/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/lvkinhas">
+    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
+  </a>
 </p>  
 
 <h1> </h1>
@@ -48,11 +49,6 @@
     <td>
       <a href="https://github.com/lucasfdelis">
  <img width="454px" align="center" src="https://github-readme-stats.vercel.app/api?username=lucasfdelis&show_icons=true&theme=dracula&line_height=27" alt="Lucas Alves github stats"/>
-</a>
-    </td>
-    <td>
-       <a href="https://github.com/lucasfdelis">
- <img width="454px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasfdelis&theme=dracula" alt="Lucas Alves github stats"/>
 </a>
     </td>
    
