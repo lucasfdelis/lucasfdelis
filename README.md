@@ -1,14 +1,12 @@
 <img src="https://github.com/lucasfdelis/lucasfdelis/blob/main/computer-illustration.png?raw=true" min-width="350px" max-width="350px" width="350px" align="right" alt="Computador">
 
-<h1 align="center">Hi! 👋, I'm Lucas Alves.</h1>
+<h1 align="center">Olá! 👋, sou Lucas Alves.</h1>
 
 <br>
 
-<p align="left"><strong>Computer Technician</strong> and studying the <strong>5nd</strong> term of <strong>Computer Engineering</strong> at <strong>IFPB - Campus Campina Grande</strong>. 
+<p align="left"><strong>Técnico em Informática</strong> e atualmente no <strong>6º</strong> período do curso de <strong>Engenharia de Computação</strong>, no <strong>IFPB - Campus Campina Grande</strong>. 
 
 <br>
-
-<p>Be free to contact me! 🤝</p>
 
 <br>
 
