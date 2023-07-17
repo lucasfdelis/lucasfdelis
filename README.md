@@ -1,6 +1,6 @@
 <img src="https://github.com/lucasfdelis/lucasfdelis/blob/main/computer-illustration.png?raw=true" min-width="350px" max-width="350px" width="350px" align="right" alt="Computador">
 
-<h1 align="center">Olá! 👋, sou Lucas Alves.</h1>
+<h1 align="center">Olá! 👋, sou o Lucas Alves.</h1>
 
 <br>
 
