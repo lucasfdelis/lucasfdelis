@@ -4,7 +4,7 @@
 
 <br>
 
-<p align="left"><strong>Técnico em Informática</strong> e atualmente no <strong>8º</strong> período do curso de <strong>Engenharia de Computação</strong>, no <strong>IFPB - Campus Campina Grande</strong>. 
+<p align="left"><strong>Técnico em Informática</strong> e atualmente no <strong>9º</strong> período do curso de <strong>Engenharia de Computação</strong>, no <strong>IFPB - Campus Campina Grande</strong>. 
 
 <br>
 
