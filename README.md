@@ -39,20 +39,6 @@
  ![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
  ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-<table align = "center" border = '0'>
-  <tr>
-    <td>
-      <a href="https://github.com/lucasfdelis">
-  <img width="400px" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasfdelis&exclude_repo=IA-FIC2021&langs_count=6&theme=dracula&hide_langs_below=1&layout=compact" />
-</a>
-    </td>
-    <td>
-      <a href="https://github.com/lucasfdelis">
- <img width="454px" align="center" src="https://github-readme-stats.vercel.app/api?username=lucasfdelis&show_icons=true&theme=dracula&line_height=27" alt="Lucas Alves github stats"/>
-</a>
-    </td>
-   
-  </tr>
 </table>
 
 
