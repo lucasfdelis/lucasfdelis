@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Alves - Software Engineer & Data Analyst</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+            color: #000;
+            background: #f5f5f5;
+            font-size: 10.5pt;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: #fff;
+            padding: 0.75in;
+            min-height: 297mm;
+            position: relative;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+            .container {
+                padding: 0.5in;
+                margin: 0;
+            }
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 8px;
+        }
+
+        .header h1 {
+            font-size: 20pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+
+        .header .title {
+            font-size: 11pt;
+            margin-bottom: 6px;
+            font-weight: normal;
+        }
+
+        .contact {
+            font-size: 9.5pt;
+            line-height: 1.4;
+        }
+
+        .contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Headers */
+        .section {
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+        }
+
+        /* Summary */
+        .summary {
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* Skills */
+        .skills-grid {
+            line-height: 1.5;
+        }
+
+        .skill-category {
+            margin-bottom: 4px;
+        }
+
+        .skill-category strong {
+            font-weight: bold;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 10px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .job-title-company {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .job-position {
+            font-style: italic;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+
+        .job li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+        }
+
+        .project-header {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .project-header a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .project-description {
+            line-height: 1.4;
+        }
+
+        .project ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+
+        .project li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 6px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .education-school {
+            font-weight: bold;
+        }
+
+        .education-date {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .education-degree {
+            font-size: 10pt;
+        }
+
+        /* Metrics highlighting */
+        strong.metric {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="resume-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>LUCAS ALVES</h1>
+            <div class="title">Project Manager | Data Analyst | Software Engineer</div>
+            <div class="contact">
+                Campina Grande, Paraíba, Brazil | (83) 9 8608-4194<br>
+                <a href="mailto:lucasalvesf78@gmail.com">lucasalvesf78@gmail.com</a> |
+                <a href="https://www.linkedin.com/in/lucasfdelis" target="_blank">linkedin.com/in/lucasfdelis</a> |
+                <a href="https://github.com/lucasfdelis" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div class="summary">
+                Data Analyst and Back-end Developer with a <strong>Bachelor's in Computer Engineering</strong> (IFPB, 2025) and a <strong>Technical Degree in Informatics</strong> (IFPB, 2019). Several years of experience in <strong>software development</strong> and <strong>data analysis</strong>, with expertise in <strong>Python</strong> and <strong>JavaScript</strong>. Currently handling urban mobility data analysis at <strong>Bus2</strong>, optimizing processes and serving clients nationwide, and managing projects at <strong>Colégio Panorama</strong>, leading the development team for efficient, scalable solutions. Proactive, collaborative, and committed to high-quality results, continuously enhancing technical skills. Driven by challenges, lifelong learning, and delivering excellence with consistency and responsibility.
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-category"><strong>Languages:</strong> Python, JavaScript, SQL, HTML, CSS</div>
+                <div class="skill-category"><strong>Frameworks & Libraries:</strong> Django, Node.js, Selenium, SQLAlchemy, Pandas, PyQt5</div>
+                <div class="skill-category"><strong>Databases:</strong> PostgreSQL, Amazon Redshift, SQLite</div>
+                <div class="skill-category"><strong>Tools & Platforms:</strong> Git, Docker, Knime, WebISS</div>
+                <div class="skill-category"><strong>Areas of Expertise:</strong> Data Analysis, ETL (Extract, Transform, Load), Web Scraping, Back-end Development</div>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">Colégio Panorama</div>
+                    <div class="job-date">December 2025 - Present</div>
+                </div>
+                <div class="job-position">Project Manager</div>
+                <ul>
+                    <li>Leading the development team to deliver efficient and scalable solutions for the institution</li>
+                    <li>Managing project timelines, priorities, and cross-functional coordination</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">Bus2</div>
+                    <div class="job-date">May 2023 - Present</div>
+                </div>
+                <div class="job-position">Data Analyst</div>
+                <ul>
+                    <li>Developed and optimized <strong>ETL pipelines</strong> for urban mobility data integration, analysis, and storage using <strong>Knime, Python, and Amazon Redshift</strong></li>
+                    <li>Built web scraping solutions using <strong>Python</strong> with <strong>Selenium</strong> for automated data collection</li>
+                    <li>Conducted data analysis for city-wide "Boarding/Alighting" transit research, identifying population behavior patterns in public transportation</li>
+                    <li>Provided technical support and knowledge sharing with colleagues, contributing to workflow standardization and team growth</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">Colégio Panorama</div>
+                    <div class="job-date">June 2021 - May 2023</div>
+                </div>
+                <div class="job-position">Software Developer (Intern)</div>
+                <ul>
+                    <li>Created a <strong>Python script</strong> to read school system data and transfer it to the database using <strong>SQLAlchemy</strong> and <strong>PostgreSQL</strong></li>
+                    <li>Developed a <strong>JavaScript API</strong> enabling access to local database data with SQL queries for generating student analytics charts</li>
+                    <li>Built web scraping tools using <strong>Python</strong> and <strong>Selenium</strong> for automated data extraction</li>
+                    <li>Administered the <strong>PostgreSQL database</strong>, handling installation, configuration, updates, and monitoring to ensure availability and performance</li>
+                    <li>Created a <strong>Python project</strong> for electronic service invoice (NFs-e) issuance through the WebISS system</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">Multi Telecom</div>
+                    <div class="job-date">August 2020 - June 2021</div>
+                </div>
+                <div class="job-position">Software Developer</div>
+                <ul>
+                    <li>Built a <strong>Python bot</strong> for automated WhatsApp Web messaging using <strong>Selenium</strong> for browser automation and <strong>PyQt5</strong> for the GUI</li>
+                    <li>Developed a <strong>Python bot</strong> that returns a spreadsheet of WhatsApp-enabled phone numbers using <strong>Selenium</strong> and <strong>PyQt5</strong></li>
+                    <li>Created a program for automated spreadsheet manipulation and local network distribution using <strong>PyQt5, SQLite3, and Pandas</strong></li>
+                    <li>Built a <strong>JavaScript chatbot</strong> for WhatsApp using the <strong>wa-automate-js</strong> library</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+
+            <div class="project">
+                <div class="project-header">Google Maps Crawler — Python (May 2021)</div>
+                <ul>
+                    <li>Built a Python application that collects business data from Google Maps and exports it to an Excel spreadsheet automatically, using <strong>Selenium</strong> for browser automation, <strong>xlwings</strong> for spreadsheet data entry, and <strong>PyQt5</strong> for the front-end interface</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="education-header">
+                    <span class="education-school">Instituto Federal da Paraíba (IFPB)</span>
+                    <span class="education-date">2020 - 2025</span>
+                </div>
+                <div class="education-degree">Bachelor's in Computer Engineering</div>
+            </div>
+            <div class="education-item">
+                <div class="education-header">
+                    <span class="education-school">Instituto Federal da Paraíba (IFPB)</span>
+                    <span class="education-date">2017 - 2019</span>
+                </div>
+                <div class="education-degree">Technical Degree in Informatics</div>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section">
+            <div class="section-title">Certifications</div>
+            <div class="skills-grid">
+                <div class="skill-category">Data Scientist Associate | Data Analyst Associate | AI Fundamentals</div>
+                <div class="skill-category">Introduction to Data Visualization with Plotly in Python | Analyzing Police Activity with pandas</div>
+            </div>
+        </div>
+
+        <!-- Awards & Achievements -->
+        <div class="section">
+            <div class="section-title">Awards & Achievements</div>
+            <div class="skills-grid">
+                <div class="skill-category">3rd Place — Maratona POP de Programação 2022 (Advanced Category)</div>
+                <div class="skill-category">Silver Medal — Olimpíada Paraibana de Informática (OPI), Advanced Senior Category (2022)</div>
+                <div class="skill-category">5th Place — Maratona POP de Programação 2021 (Beginner Category)</div>
+                <div class="skill-category">152nd out of 1,512 — XXII Brazilian Programming Olympiad</div>
+                <div class="skill-category">4th Place — Maratona POP de Programação 2020 (Beginner Category)</div>
+            </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="section">
+            <div class="section-title">Languages</div>
+            <div class="education-item">
+                <strong>Portuguese:</strong> Native &nbsp;|&nbsp; <strong>English:</strong> Advanced (C2)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
