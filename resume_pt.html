@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Alves - Data Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.28; color: #000; background: #fff; font-size: 7.9pt; }
+        .container { margin: 0; padding: 8mm 12mm; }
+        @media print { @page { margin: 8mm 12mm; size: A4; } .container { padding: 0; } }
+
+        .header { margin-bottom: 10px; border-bottom: 1.5px solid #000; padding-bottom: 8px; }
+        .header-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+        .header h1 { font-size: 16pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-contact-top { font-size: 7.5pt; color: #333; text-align: right; }
+        .header-subtitle { font-size: 8.5pt; color: #333; margin-bottom: 2px; }
+        .header-contact { font-size: 7.5pt; color: #333; }
+        .header a { color: #000; text-decoration: none; }
+
+        .section { margin-bottom: 7px; }
+        .section-title { font-size: 9pt; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; border-bottom: 1px solid #000; padding-bottom: 1px; }
+        .summary { text-align: justify; line-height: 1.28; font-size: 8.2pt; }
+
+        .job { margin-bottom: 6px; }
+        .job-line1 { display: flex; justify-content: space-between; align-items: baseline; font-weight: bold; font-size: 8.5pt; }
+        .job-line2 { font-size: 7.8pt; color: #333; font-style: italic; margin-bottom: 3px; }
+        .job ul { margin-left: 12px; margin-top: 2px; list-style: none; }
+        .job li { margin-bottom: 2px; line-height: 1.28; font-size: 7.8pt; padding-left: 2px; }
+        .job li::before { content: "– "; margin-left: -10px; }
+
+        .skills-grid { line-height: 1.4; font-size: 8pt; }
+        .skill-line { margin-bottom: 2px; }
+
+        .compact-list { font-size: 8pt; line-height: 1.45; }
+        .compact-list .item { margin-bottom: 1px; display: flex; justify-content: space-between; }
+        .compact-list .year { color: #333; font-size: 7.5pt; white-space: nowrap; }
+
+        .edu-block { margin-bottom: 4px; }
+        .edu-line1 { display: flex; justify-content: space-between; align-items: baseline; font-weight: bold; font-size: 8.5pt; }
+        .edu-line2 { font-size: 7.8pt; color: #333; font-style: italic; }
+        .edu-detail { font-size: 7.8pt; color: #333; margin-top: 1px; padding-left: 12px; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header-top">
+            <h1>Lucas Alves</h1>
+            <div class="header-contact-top">&#9993; <a href="mailto:lucasalvesf78@gmail.com">lucasalvesf78@gmail.com</a> &nbsp;|&nbsp; &#9742; +55 83 98608-4194</div>
+        </div>
+        <div class="header-subtitle">Engenheiro de Dados &nbsp;|&nbsp; Python, SQL, Amazon Redshift &nbsp;|&nbsp; Pipelines ETL &amp; Automação de Processos</div>
+        <div class="header-contact">Campina Grande, Paraíba, Brasil &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://linkedin.com/in/lucasfdelis">&#x1F517; LinkedIn</a> &nbsp;|&nbsp; <a href="https://github.com/lucasfdelis">&#x1F517; GitHub</a></div>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Engenheiro de Dados com mais de 5 anos construindo pipelines ETL em produção processando dados de <strong>dezenas de cidades brasileiras</strong>, automatizando coleta de dados em escala e liderando equipes multidisciplinares. Especialista em <strong>Python, SQL, Amazon Redshift, DuckDB e PostgreSQL</strong>, entregando soluções completas de integração e análise de dados para clientes de mobilidade urbana em âmbito nacional. Acelera entregas com desenvolvimento assistido por IA (<strong>Claude, GitHub Copilot</strong>) para scaffolding de pipelines, geração de SQL e documentação automatizada. Pesquisador publicado em modelagem de dados de mobilidade urbana com disciplinas de mestrado em Sensoriamento Inteligente e Dados Geoespaciais. Histórico comprovado: eliminou processos manuais reduzindo carga de trabalho da equipe em 2/3, automatizou aquisição de dados reduzindo coleta de horas para minutos, e escalou capacidade de prospecção em 10x com ferramentas customizadas. Múltiplas medalhas em competições nacionais de programação (Prata OPI, top 10% Olimpíada Brasileira de Programação). Bacharel em Engenharia da Computação (IFPB, 2025). Certificado DataCamp em Data Science, Data Analysis e AI Fundamentals. Português nativo e inglês avançado (B2/C1).
+        </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+
+        <div class="job">
+            <div class="job-line1"><span>&#8226; Gerente de Projetos</span><span>Dez 2025 – Presente</span></div>
+            <div class="job-line2">Colégio Panorama &nbsp;&nbsp;Campina Grande, Brasil · Presencial</div>
+            <ul>
+                <li>Liderança de equipes multidisciplinares responsáveis pela transformação digital da instituição, gerenciando projetos de análise de dados, desenvolvimento de software e automação de processos com Scrum e Kanban; utilização de <strong>ferramentas de desenvolvimento assistido por IA</strong> para acelerar entregas e melhorar qualidade do código.</li>
+                <li>Coordenação de <strong>pipeline ETL em Python</strong> (SQLAlchemy → PostgreSQL) que eliminou transferências manuais de dados que consumiam <strong>2/3 das horas semanais da equipe</strong>; supervisão de <strong>API REST em JavaScript</strong> gerando dashboards interativos de desempenho estudantil — entregando visibilidade analítica inédita à gestão escolar.</li>
+                <li>Estruturação de processos de controle de versão com GitHub, padronizando o fluxo de desenvolvimento e reduzindo fricção nas entregas em iniciativas simultâneas.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-line1"><span>&#8226; Analista de Dados / Engenheiro de Dados</span><span>Mai 2023 – Presente</span></div>
+            <div class="job-line2">Bus2 &nbsp;&nbsp;Brasil · 100% Remoto</div>
+            <ul>
+                <li>Construção e otimização de <strong>pipelines ETL</strong> integrando fontes de dados heterogêneas de <strong>dezenas de cidades brasileiras</strong> usando Python, Knime, Amazon Redshift e DuckDB; aceleração do desenvolvimento de pipelines e geração de SQL com <strong>Claude e GitHub Copilot</strong>, reduzindo ciclos de desenvolvimento e melhorando qualidade do código.</li>
+                <li>Realização de pesquisa sobe-desce em escala municipal, identificando padrões de comportamento de passageiros que orientam diretamente <strong>decisões de planejamento de rotas e horários</strong>; entrega de insights acionáveis sobre mobilidade populacional para clientes municipais em todo o país.</li>
+                <li>Redução do tempo de aquisição de dados de <strong>horas para minutos</strong> substituindo coleta manual por web scraping em Python + Selenium; otimização do processamento de pipelines, reduzindo gargalos e aumentando confiabilidade dos dados em sistemas de bilhetagem eletrônica para clientes municipais.</li>
+                <li>Documentação de processos de engenharia de dados garantindo rastreabilidade e escalabilidade das soluções; mentoria técnica e compartilhamento de conhecimento que reduziu tempo de integração de novos analistas e contribuiu para padronização de workflows.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-line1"><span>&#8226; Engenheiro de Software</span><span>Jun 2021 – Mai 2023</span></div>
+            <div class="job-line2">Colégio Panorama &nbsp;&nbsp;Campina Grande, Brasil · Presencial</div>
+            <ul>
+                <li>Criação de <strong>pipeline ETL em Python</strong> (SQLAlchemy → PostgreSQL) eliminando transferências manuais que consumiam <strong>2/3 do tempo semanal da equipe</strong>; desenvolvimento de <strong>API REST em JavaScript</strong> com consultas SQL gerando gráficos interativos de desempenho estudantil — entregando visibilidade analítica à gestão pela primeira vez.</li>
+                <li>Automação da emissão de notas fiscais eletrônicas (NFs-e) via WebISS com Python, eliminando <strong>5 dias inteiros/mês</strong> de trabalho manual com zero erros; administração de banco de dados PostgreSQL (instalação, configuração, monitoramento, otimização) garantindo disponibilidade e performance contínuas.</li>
+                <li>Implementação de soluções de web scraping com Python e Selenium para coleta periódica automatizada de dados de fontes externas, substituindo processos manuais por completo.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-line1"><span>&#8226; Engenheiro de Software</span><span>Ago 2020 – Jun 2021</span></div>
+            <div class="job-line2">Multi Telecom &nbsp;&nbsp;Campina Grande, Brasil · Presencial</div>
+            <ul>
+                <li>Desenvolvimento de <strong>bots em Python</strong> (Selenium + PyQt5) para automação de WhatsApp, multiplicando a capacidade de prospecção da equipe comercial por <strong>10x</strong>; construção de ferramenta de validação de números processando <strong>10K+ números por lote</strong>, exportando resultados para planilhas estruturadas.</li>
+                <li>Construção de sistema automatizado de manipulação de arquivos (PyQt5 + SQLite3 + Pandas) para manipulação de planilhas e distribuição em rede local, liberando <strong>20 horas/semana</strong> da equipe e eliminando erros de transferência manual.</li>
+                <li>Criação de <strong>chatbot em JavaScript</strong> (wa-automate-js) para atendimento ao cliente via WhatsApp, automatizando respostas frequentes e reduzindo significativamente o tempo de resposta.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HABILIDADES TÉCNICAS -->
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-line"><strong>Linguagens:</strong> Python (avançado), JavaScript, SQL, HTML, CSS.</div>
+            <div class="skill-line"><strong>IA &amp; Automação:</strong> Claude, GitHub Copilot, scaffolding de pipelines assistido por IA, geração de SQL, documentação automatizada, prompt engineering.</div>
+            <div class="skill-line"><strong>Dados &amp; ETL:</strong> Pandas, SQLAlchemy, Selenium, Knime, DuckDB, design de pipelines ETL/ELT, web scraping, monitoramento de qualidade de dados.</div>
+            <div class="skill-line"><strong>Bancos de Dados &amp; Cloud:</strong> PostgreSQL, Amazon Redshift (data warehousing, consultas complexas), SQLite, DuckDB; AWS, Docker, Linux.</div>
+            <div class="skill-line"><strong>Backend &amp; Frameworks:</strong> Django, FastAPI, Node.js, REST APIs; Git, GitHub, GitHub Actions, CI/CD.</div>
+            <div class="skill-line"><strong>Análise &amp; Visualização:</strong> Plotly, modelagem de dados, análise estatística, geração de relatórios, desenvolvimento de dashboards.</div>
+            <div class="skill-line"><strong>Gestão &amp; Metodologia:</strong> Scrum, Kanban, liderança de equipes multidisciplinares, gestão completa de ciclo de vida de projetos, mentoria técnica.</div>
+        </div>
+    </div>
+
+    <!-- PUBLICATIONS & PROJECTS -->
+    <div class="section">
+        <div class="section-title">Publications &amp; Projects</div>
+        <div class="compact-list">
+            <div class="item"><span>&#8226; "Análise de desempenho do sistema de transporte através do método sobe-desce" — pesquisa revisada por pares</span></div>
+            <div class="item"><span>&#8226; "Modelagem de padrões de mobilidade urbana: aplicação da análise de embarque e desembarque em sistemas de transporte na cidade de Campina Grande" — pesquisa revisada por pares</span></div>
+            <div class="item"><span>&#8226; <strong>Google Maps Crawler</strong> — Python, Selenium, xlwings, PyQt5. Extração automatizada de dados comerciais do Google Maps para Excel, 1K+ registros/execução com parâmetros configuráveis.</span></div>
+        </div>
+    </div>
+
+    <!-- PRÊMIOS &amp; CONQUISTAS -->
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        <div class="compact-list">
+            <div class="item"><span>&#8226; Medalha de Prata — Olimpíada Paraibana de Informática (OPI), Categoria Avançado Senior</span><span class="year">2022</span></div>
+            <div class="item"><span>&#8226; Top 10% — XXII Olimpíada Brasileira de Programação</span><span class="year">2022</span></div>
+            <div class="item"><span>&#8226; 3º Lugar — Maratona POP de Programação, Categoria Avançado</span><span class="year">2022</span></div>
+            <div class="item"><span>&#8226; 5º Lugar — Maratona POP de Programação, Categoria Iniciante</span><span class="year">2021</span></div>
+            <div class="item"><span>&#8226; 4º Lugar — Maratona POP de Programação, Categoria Iniciante</span><span class="year">2020</span></div>
+        </div>
+    </div>
+
+    <!-- CERTIFICAÇÕES -->
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <div class="compact-list">
+            <div class="item"><span>&#8226; Data Scientist Associate — DataCamp</span></div>
+            <div class="item"><span>&#8226; Data Analyst Associate — DataCamp</span></div>
+            <div class="item"><span>&#8226; AI Fundamentals — DataCamp</span></div>
+            <div class="item"><span>&#8226; Introduction to Data Visualization with Plotly in Python — DataCamp</span></div>
+            <div class="item"><span>&#8226; Analyzing Police Activity with pandas — DataCamp</span></div>
+        </div>
+    </div>
+
+    <!-- FORMAÇÃO ACADÊMICA -->
+    <div class="section" style="margin-bottom:0">
+        <div class="section-title">Education</div>
+        <div class="edu-block">
+            <div class="edu-line1"><span>&#8226; Mestrado (Aluno Especial) — Sensoriamento Inteligente e Dados Geoespaciais</span><span>Ago 2025 – Dez 2025</span></div>
+            <div class="edu-line2">Instituto Federal da Paraíba (IFPB), Campina Grande</div>
+            <div class="edu-detail">– Ênfase em processamento de dados geoespaciais, sistemas de sensoriamento inteligente e ciência de dados aplicada.</div>
+        </div>
+        <div class="edu-block">
+            <div class="edu-line1"><span>&#8226; Bacharelado em Engenharia da Computação</span><span>2020 – 2025</span></div>
+            <div class="edu-line2">Instituto Federal da Paraíba (IFPB), Campina Grande</div>
+            <div class="edu-detail">– Pesquisador publicado em modelagem de dados de mobilidade urbana. Múltiplos prêmios em competições de programação (Prata OPI, top 10% olimpíada nacional).</div>
+        </div>
+        <div class="edu-block" style="margin-bottom:0">
+            <div class="edu-line1"><span>&#8226; Curso Técnico Integrado em Informática</span><span>2017 – 2019</span></div>
+            <div class="edu-line2">Instituto Federal da Paraíba (IFPB), Campina Grande</div>
+            <div class="edu-detail">– Base em programação, bancos de dados e fundamentos de desenvolvimento de software.</div>
+        </div>
+    </div>
+
+</div>
+</body></html>

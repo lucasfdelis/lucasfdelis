@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Alves — Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #f0f2f5; font-family: 'Segoe UI', system-ui, sans-serif; }
+
+        .selector {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: #1B2A4A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            padding: 10px;
+        }
+        .selector button {
+            padding: 7px 24px;
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: transparent;
+            color: #94A3B8;
+        }
+        .selector button.active {
+            background: #fff;
+            color: #1B2A4A;
+            border-color: #fff;
+        }
+        .selector button:hover:not(.active) {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+        }
+
+        .resume-frame {
+            max-width: 210mm;
+            margin: 24px auto;
+            background: #fff;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .resume-frame iframe {
+            width: 100%;
+            height: 297mm;
+            border: none;
+            display: block;
+        }
+        .resume-frame iframe.hidden { display: none; }
+
+        @media (max-width: 800px) {
+            .resume-frame { margin: 12px; border-radius: 4px; }
+            .resume-frame iframe { height: 85vh; }
+        }
+    </style>
+</head>
+<body>
+    <div class="selector">
+        <button class="active" onclick="switchLang('en', this)">English</button>
+        <button onclick="switchLang('pt', this)">Português</button>
+    </div>
+
+    <div class="resume-frame">
+        <iframe id="frame-en" src="resume_en.html"></iframe>
+        <iframe id="frame-pt" src="resume_pt.html" class="hidden"></iframe>
+    </div>
+
+    <script>
+    function switchLang(lang, btn) {
+        document.querySelectorAll('.selector button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('frame-en').classList.toggle('hidden', lang !== 'en');
+        document.getElementById('frame-pt').classList.toggle('hidden', lang !== 'pt');
+    }
+    </script>
+</body>
+</html>
